@@ -1,6 +1,4 @@
-/* Estilos generales */
-/* Establece el comportamiento de desplazamiento suave */
-
+/* Main styles */
 body {
   background-color: black;
 }
@@ -30,10 +28,17 @@ span {
   margin-bottom: 5px;
 }
 
+
 #about-me {
   display: flex;
   justify-content: flex-start;
 }
+
+#projects {
+  display: flex;
+  justify-content: flex-start;
+}
+
 /* Trasitions */
 #sub-juan {
   opacity: 0; /* Inicialmente la imagen es transparente */
@@ -50,7 +55,6 @@ span {
   transition: opacity 0.3s ease-in-out; /* Transición de 0.5 segundos con efecto ease-in-out */
 }
 
-/* Aplicamos la animación después de 500 milisegundos */
 #nombre-juan.loaded {
   animation: aparecer 0.5s ease-in-out 100ms forwards; /* La animación dura 0.7 segundos, empieza después de 100 milisegundos y se mantiene en su estado final */
 }
@@ -318,7 +322,7 @@ span {
 .proyectos-contenedor {
   padding-top: 10px;
   margin-bottom: 80px;
-  height: 500px;
+  height: 100%;
 }
 
 .overlay {
@@ -363,41 +367,41 @@ span {
   margin: 10px;
 }
 
-/* Contacto */
-.contacto .container {
+/* Contact Section */
+.contact .container {
   max-width: 1100px;
   min-height: 200px;
   padding: 20px;
 }
 
-.contacto .rectangulo {
+.contact .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(26, 32, 89); /* Dark Blue */
-  background-image: linear-gradient(to bottom right, rgb(26, 32, 89), rgb(0, 168, 255)); /* Gradient from Dark Blue to Light Blue */
+  background-color: rgb(20, 36, 173); /* Dark Blue */
+  background-image: linear-gradient(to bottom right, rgb(20, 36, 173), rgb(0, 168, 255)); /* Gradient from Dark Blue to Light Blue */
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px rgb(12, 217, 200);
 }
 
-.contacto .row {
+.contact .row {
   width: 100%;
   display: flex;
   align-items: center;
 }
 
-.contacto .descripcion {
+.contact .descripcion {
   color: rgb(255, 255, 255);
   font-size: 1.2rem;
   font-weight: 500;
 }
 
-.contacto {
+.contact {
   background-image: url('imagenes/background-contact.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 1000px;
 }
 
-.contacto button {
+.contact button {
   color: white;
   font-weight: bold;
   background-color: transparent;
@@ -408,18 +412,18 @@ span {
   transition: all 0.2s ease-in-out;
 }
 
-.contacto button:hover {
+.contact button:hover {
   background-color: white;
   color: black;
 }
 
-.contacto button i {
+.contact button i {
   color: white;
   font-size: 1.3rem;
   transition: all 0.2s ease-in-out;
 }
 
-.contacto button:hover i {
+.contact button:hover i {
   color: black;
 }
 
@@ -491,13 +495,15 @@ footer {
   /* Reducir el ancho de las secciones para ajustarse a pantallas estrechas */
     /* Adjust the height of sections to fit the content */
     #about-me,
-    #main-section {
+    #main-section, 
+    #contact-me {
       height: auto; /* Set the height to auto to fit the content */
     }
-    /* Ensure the videos are responsive */
+
+   /*Ensure the videos are responsive */
     .main-video,
     .circuit-video {
-      height: auto; /* Set the height to auto to maintain aspect ratio */
+      height: 100%; /* Set the height to auto to maintain aspect ratio */
       width: 100%; /* Ensure the video covers the entire width */
     }
   
