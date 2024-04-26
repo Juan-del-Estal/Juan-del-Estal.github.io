@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Metadatos -->
+  <meta charset="utf-8">
+  <meta name="author" content="Juan Jose del Estal">
+  <meta name="description" content="Portafolio de desarrollo web de Juan Jose del Estal">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, jQuery">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Titulo -->
+  <title>Juan Jose del Estal Full stack developer</title>
+  <!-- Favicon -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- Iconos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link href="style.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <section id="main-section" class="seccion-activa hero align-items-stretch">
+    <nav id="navbar">
+      <ul>
+        <li><a href="#main-section">Welcome</a></li>
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact-me">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <video style="visibility: visible;" class="main-video" muted autoplay loop>
+        <source src="./imagenes/background-portfolio.mp4" type="video/mp4">
+      </video>
+      <img id='foto-juan' class="hero-imagen-desarrollador rounded-circle" src="imagenes/Juan del Estal.jpg"
+        alt="Foto de Juan del Estal">
+      <h1 id="nombre-juan">Juan Jose del Estal</h1>
+      <h2 id="sub-juan">I am a Full Stack Developer with Backend Orientation</h2>
+      <img class="hero-inferior-imagen img-fluid" src="imagenes/tecnologias1.png"
+        alt="Laptop y diversos logos de distintas tecnologias">
+    </div>
+  </section>
+  <!-- Sobre mi -->
+  <section id="about-me" class="sobre-mi seccion-oscura">
+    <div class="contenedor contenedor-about-me">
+      <video style="visibility: visible;" class="circuit-video" muted autoplay loop>
+        <source src='./imagenes/circuits.mp4' type="video/mp4">
+      </video>
+      <h2 class="seccion-titulo">About the Developer</h2>
+      <p class="seccion-texto">
+        I'm a full-stack developer specializing in React and TypeScript With a solid background in SQL and
+        backend development, I design robust systems for seamless user experiences.
+      </p>
+    </div>
+    <div class="container text-center">
+      <div class="row">
+        <div class="columna col-12 col-md-4">
+          <a href="#projects">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Languages and databases</p>
+            <p class="tech-p">They're the building blocks of my projects and the tools I use to create innovative solutions</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Typescript</span>
+              <span class="badge text-bg-primary">Javascript</span>
+              <span class="badge text-bg-primary">Python</span>
+              <span class="badge text-bg-primary">PostgreSQL</span>
+              <span class="badge text-bg-primary">MongoDB</span>
+            </div>
+          </a>
+      </div>
+        <!-- Articulos -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Frameworks & technologies</p>
+          <p class="tech-p">From versatile frameworks like React to robust technologies like Docker.</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">React</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-primary">JWT</span>
+            <span class="badge text-bg-primary">Express</span>
+            <span class="badge text-bg-primary">Docker</span>
+            <span class="badge text-bg-primary">Passport</span>
+            <span class="badge text-bg-primary">Eslint</span>
+            <span class="badge text-bg-primary">Socket.io</span>
+            <span class="badge text-bg-primary">Jest</span>
+          </div>
+        </div>
+        <!-- Estudiante -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Additional Skills</p>
+          <p class="tech-p">Advanced Problem-Solving and Language Proficiency</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Algorithms and Data Structures</span>
+            <span class="badge text-bg-primary">Problem Solving</span>
+            <span class="badge text-bg-primary">English B2</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="projects" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro">My recently developed projects </h2>
+    <!-- Galeria de Proyectos -->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+        <!-- Proyecto 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/Fuji-Sushi.png" alt="Proyecto 1">
+            <div class="overlay">
+              <p class="project-p">Fuji Sushi</p>
+              <div class="iconos-contenedor">
+                <!-- 
+                <a href="ruta_al_video.mp4" target="_blank">
+                  <i class="bi bi-play-circle-fill logo-play"></i>
+                </a>
+                -->
+                <a href="https://github.com/Juan-del-Estal/Fuji-Sushi-Front" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github logo-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/Social-Media.png" alt="Proyecto 2">
+            <div class="overlay">
+              <p class="project-p">Tech-media</p>
+              <div class="iconos-contenedor">
+                <!-- 
+                <a href="ruta_al_video.mp4" target="_blank">
+                  <i class="bi bi-play-circle-fill logo-play"></i>
+                </a>
+                -->
+                <a href="https://github.com/Juan-del-Estal/Social-Media-typescript-typeORM" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github logo-github"></i>
+                </a>
+                <!--  Logo laptop
+                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+                 -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/river-project.png" alt="Proyecto 3">
+            <div class="overlay">
+              <p class="project-p">Football Club</p>
+              <div class="iconos-contenedor">
+                <!-- 
+                <a href="ruta_al_video.mp4" target="_blank">
+                  <i class="bi bi-play-circle-fill logo-play"></i>
+                </a>
+                -->
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github logo-github"></i>
+                </a>
+                <!-- Logo laptop 
+                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+                 -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 4 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto5.png" alt="Proyecto 4">
+            <div class="overlay">
+              <p class="project-p">Hardware market(backend)</p>
+              <div class="iconos-contenedor">
+                <!-- 
+                <a href="ruta_al_video.mp4" target="_blank">
+                  <i class="bi bi-play-circle-fill logo-play"></i>
+                </a>
+                -->
+                <a href="https://github.com/Juan-del-Estal/E-commerce-Back" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github logo-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 5 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/chat-room.jpeg.png" alt="Proyecto 5">
+            <div class="overlay">
+              <p class="project-p">Chat Room</p>
+              <div class="iconos-contenedor">
+                <!-- 
+                <a href="ruta_al_video.mp4" target="_blank">
+                  <i class="bi bi-play-circle-fill logo-play"></i>
+                </a>
+                -->
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github logo-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 6 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto6.png" alt="Proyecto 6">
+            <div class="overlay">
+              <p class="project-p soon">Coming Soon...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contact-me" class="contacto seccion-oscura">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            ¡Hablemos!
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:juandelestal1994@gmail.com">
+              <button type="button">
+                Contacto
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+          </div>
+      </div>
+    </div>
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">
+        I learn and create every day.
+        Let's create a project together.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/juan-del-estal-bb788223a/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:juandelestal1994@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Created by Juan Jose del Estal &#169;</div>
+    </footer>
+  </section>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./client/index.js"></script>
+</body>
+</html>
