@@ -488,8 +488,24 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+   /* Cambiar la dirección de flexión a vertical para las secciones */
+   section {
+    flex-direction: column;
+  }
+  /* Reducir el ancho de las secciones para ajustarse a pantallas estrechas */
+  .sobre-mi,
+  .proyectos-recientes,
+  .contacto {
+    width: 100%;
+    max-width: none;
+  }
+
+  /* Reducir los márgenes y espaciados entre las secciones */
+  section {
+    margin-bottom: 20px;
+  }
   .navbar-brand {
-    display: none;
+    display: none; /* Ocultar el logo de la navbar en dispositivos móviles */
   }
 }
 
