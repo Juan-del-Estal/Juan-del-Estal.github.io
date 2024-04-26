@@ -372,9 +372,10 @@ span {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13, 110, 253);
+  background-color: rgb(26, 32, 89); /* Dark Blue */
+  background-image: linear-gradient(to bottom right, rgb(26, 32, 89), rgb(0, 168, 255)); /* Gradient from Dark Blue to Light Blue */
   border-radius: 10px;
-  box-shadow: 0px 1px 4px 1px white;
+  box-shadow: 0px 1px 4px 1px rgb(12, 217, 200);
 }
 
 .contacto .row {
