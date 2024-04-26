@@ -1,6 +1,6 @@
 /* Main styles */
 body {
-  background-color: black;
+  background-color: rgb(23, 17, 202);
 }
 
 section {
@@ -506,6 +506,8 @@ footer {
       height: 100%; /* Set the height to auto to maintain aspect ratio */
       width: 100%; /* Ensure the video covers the entire width */
     }
+
+    
   
   .navbar-brand {
     display: none; /* Ocultar el logo de la navbar en dispositivos móviles */
