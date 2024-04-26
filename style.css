@@ -236,17 +236,15 @@ span {
 .sobre-mi {
   position: relative;
   height: 750px;
-  padding: 10px;
+  padding: 40px 40px 60px 40px;
+  background-image: url('imagenes/main-background-support.jpeg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .sobre-mi .contenedor {
   max-width: 600px;
   text-align:center;
-}
-
-/* Experiencia ultimo cambio */
-.sobre-mi {
-  padding: 40px 40px 60px 40px;
 }
 
 .sobre-mi .columna {
