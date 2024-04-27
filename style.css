@@ -45,7 +45,7 @@ span {
 }
 /* Aplicamos la animación después de 500 milisegundos */
 #sub-juan.loaded {
-  animation: aparecer 0.5s ease-in-out 300ms forwards; /* La animación dura 1.5 segundos, empieza después de 500 milisegundos y se mantiene en su estado final */
+  animation: aparecer 0.5s ease-in-out 100ms forwards; /* La animación dura 1.5 segundos, empieza después de 500 milisegundos y se mantiene en su estado final */
 }
 
 /* Aplicamos estilos de opacidad inicial */
@@ -55,7 +55,7 @@ span {
 }
 
 #nombre-juan.loaded {
-  animation: aparecer 0.5s ease-in-out 100ms forwards; /* La animación dura 0.7 segundos, empieza después de 100 milisegundos y se mantiene en su estado final */
+  animation: aparecer 0.5s ease-in-out 50ms forwards; /* La animación dura 0.7 segundos, empieza después de 100 milisegundos y se mantiene en su estado final */
 }
 
 /* Keyframes */
