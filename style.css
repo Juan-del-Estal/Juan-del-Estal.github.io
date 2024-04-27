@@ -497,7 +497,7 @@ footer {
       height: auto; /* Set the height to auto to fit the content */
     }
 
-    #nav-bar a {
+    #navbar a {
       border-right: none;
       font-size: 16px;
     }
@@ -523,10 +523,6 @@ footer {
 
     .sobre-mi .columna {
       height: 100%;
-    }
-    
-    #navbar {
-      opacity: 0;
     }
     
     .navbar-brand {
