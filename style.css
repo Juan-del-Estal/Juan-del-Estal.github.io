@@ -68,6 +68,17 @@ span {
   }
 }
 
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+
 /* NavBar */
 #navbar {
   /* Transition */
@@ -497,7 +508,20 @@ footer {
       height: 100%; /* Set the height to auto to maintain aspect ratio */
       width: 100%; /* Ensure the video covers the entire width */
     }
-  
+
+    .sobre-mi {
+      view-timeline-name: --section;
+      view-timeline-axis: block;
+      animation-timeline: --section;
+      animation-name: show;
+      animation-range: entry 25% cover 30%;
+      animation-fill-mode: both;
+    }
+    
+    #nav-bar{
+      opacity: 0;
+    }
+
     .navbar-brand {
     display: none; /* Ocultar el logo de la navbar en dispositivos móviles */
     }
