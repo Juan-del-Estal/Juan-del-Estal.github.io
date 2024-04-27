@@ -509,7 +509,7 @@ footer {
       width: 100%; /* Ensure the video covers the entire width */
     }
 
-    .sobre-mi {
+    #about-me {
       background-image: url('imagenes/circuits-image.png');
       background-repeat: no-repeat;
       background-size: cover;
