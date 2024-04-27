@@ -1,6 +1,8 @@
 /* Main styles */
 body {
   background-color: black;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 section {
@@ -27,7 +29,6 @@ a, a:hover {
 span {
   margin-bottom: 5px;
 }
-
 
 #about-me {
   display: flex;
@@ -58,7 +59,8 @@ span {
 #nombre-juan.loaded {
   animation: aparecer 0.5s ease-in-out 100ms forwards; /* La animación dura 0.7 segundos, empieza después de 100 milisegundos y se mantiene en su estado final */
 }
-/* Definimos una animación para hacer aparecer la imagen */
+
+/* Keyframes */
 @keyframes aparecer {
   from {
     opacity: 0; /* La imagen comienza completamente transparente */
@@ -67,6 +69,18 @@ span {
     opacity: 1; /* La imagen termina completamente opaca */
   }
 }
+
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+
 /* NavBar */
 #navbar {
   /* Transition */
@@ -234,6 +248,12 @@ span {
 
 /* Sobre mi */
 .sobre-mi {
+  view-timeline-name: --section;
+  view-timeline-axis: block;
+  animation-timeline: --section;
+  animation-name: show;
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both;
   position: relative;
   height: 750px;
   padding: 40px 40px 60px 40px;
