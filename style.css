@@ -41,21 +41,21 @@ span {
 /* Trasitions */
 #sub-juan {
   opacity: 0; /* Inicialmente la imagen es transparente */
-  transition: opacity 0.3s ease-in-out; /* Transición de 0.5 segundos con efecto ease-in-out */
+  transition: opacity 0.7s ease-in-out; /* Transición de 0.5 segundos con efecto ease-in-out */
 }
 /* Aplicamos la animación después de 500 milisegundos */
 #sub-juan.loaded {
-  animation: aparecer 0.5s ease-in-out 320ms forwards; /* La animación dura 1.5 segundos, empieza después de 500 milisegundos y se mantiene en su estado final */
+  animation: aparecer 0.7s ease-in-out 250ms forwards; /* La animación dura 1.5 segundos, empieza después de 500 milisegundos y se mantiene en su estado final */
 }
 
 /* Aplicamos estilos de opacidad inicial */
 #nombre-juan {
   opacity: 0; /* Inicialmente la imagen es transparente */
-  transition: opacity 0.4s ease-in-out; /* Transición de 0.5 segundos con efecto ease-in-out */
+  transition: opacity 0.7s ease-in-out; /* Transición de 0.5 segundos con efecto ease-in-out */
 }
 
 #nombre-juan.loaded {
-  animation: aparecer 0.6s ease-in-out 200ms forwards; /* La animación dura 0.7 segundos, empieza después de 100 milisegundos y se mantiene en su estado final */
+  animation: aparecer 0.7s ease-in-out 150ms forwards; /* La animación dura 0.7 segundos, empieza después de 100 milisegundos y se mantiene en su estado final */
 }
 
 /* Keyframes */
