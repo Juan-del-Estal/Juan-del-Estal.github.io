@@ -237,9 +237,6 @@ span {
   position: relative;
   height: 750px;
   padding: 40px 40px 60px 40px;
-  background-image: url('imagenes/main-background-support.png');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .sobre-mi .contenedor {
