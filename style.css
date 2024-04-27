@@ -519,10 +519,7 @@ footer {
     }
     
     #nav-bar {
-      position: fixed;
-      top: -100px; /* Move the navbar above the viewport */
-      left: 0;
-      width: 100%;
+      opacity: 0;
     }
     
     .navbar-brand {
