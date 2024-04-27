@@ -517,6 +517,10 @@ footer {
       animation-range: entry 25% cover 30%;
       animation-fill-mode: both;
     }
+
+    .sobre-mi .columna {
+      height: 100%;
+    }
     
     #navbar {
       opacity: 0;
