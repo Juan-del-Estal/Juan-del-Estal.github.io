@@ -510,6 +510,9 @@ footer {
     }
 
     .sobre-mi {
+      background-image: url('imagenes/circuits-image.png');
+      background-repeat: no-repeat;
+      background-size: cover;
       view-timeline-name: --section;
       view-timeline-axis: block;
       animation-timeline: --section;
