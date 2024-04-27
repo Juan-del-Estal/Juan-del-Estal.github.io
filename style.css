@@ -503,18 +503,21 @@ footer {
       height: auto; /* Set the height to auto to fit the content */
     }
 
+    #nav-bar a {
+      border-right: none;
+      font-size: 16px;
+    }
+
    /*Ensure the videos are responsive */
     .main-video,
     .circuit-video {
       height: 100%; /* Set the height to auto to maintain aspect ratio */
       width: 100%; /* Ensure the video covers the entire width */
     }
-
-    
   
-  .navbar-brand {
+    .navbar-brand {
     display: none; /* Ocultar el logo de la navbar en dispositivos móviles */
-  }
+    }
 }
 
 @media screen and (max-width: 800px) {
