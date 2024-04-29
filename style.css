@@ -83,6 +83,7 @@ span {
   right: 20px;
   z-index: 1000;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 #navbar.nav-loaded {
