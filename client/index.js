@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
         event.preventDefault();
 
         var hash = this.hash;
-
         // Animate scroll to target
         $('html, body').animate({
           scrollTop: $(hash).offset().top
