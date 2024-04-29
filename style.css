@@ -20,10 +20,6 @@ h1 {
   color: #61dafb;
 }
 
-h2 {
-  margin-top: 50px;
-}
-
 a, a:hover {
   text-decoration: none;
   color: white;
@@ -131,7 +127,7 @@ span {
 
 #navbar li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 5px;
 }
 
 #navbar-collapse {
@@ -540,10 +536,6 @@ footer {
     #navbar li {
       margin-right: 3px;
       margin-left: 5px;
-    }
-
-    #foto-juan {
-      margin-top: 20px;
     }
 }
 
