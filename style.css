@@ -537,6 +537,10 @@ footer {
       margin-right: 3px;
       margin-left: 5px;
     }
+
+    #photo-juan {
+      margin-top: 10px;
+    }
 }
 
 @media screen and (max-width: 800px) {
