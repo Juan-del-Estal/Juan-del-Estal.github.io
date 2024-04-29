@@ -509,14 +509,6 @@ footer {
       height: auto; /* Set the height to auto to fit the content */
     }
 
-    #navbar a {
-      opacity: 0;
-    }
-
-    #navbar.color-nav {
-      opacity: 0;
-    }
-
     /*Ensure the videos are responsive */
     .main-video,
     .circuit-video {
