@@ -8,7 +8,16 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-bottom: 2px solid transparent; /* Set initial border to transparent */
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-image: linear-gradient(to right, #f0db4f, #61dafb); /* Apply linear gradient as border */
+  border-image-slice: 1; /* Ensure the whole border is covered by the gradient */
+  box-shadow: 0 2px 4px #9ed822; /* Add box shadow to bottom border */
 }
+
+
 
 h1 {
   font-size: 2.5rem;
