@@ -535,7 +535,11 @@ footer {
     .navbar-brand {
     display: none; /* Ocultar el logo de la navbar en dispositivos móviles */
     }
-
+    
+    #navbar a {
+      border-right: none;
+      font-size: 14px;
+    }
     #navbar li {
       margin-right: 3px;
       margin-left: 5px;
