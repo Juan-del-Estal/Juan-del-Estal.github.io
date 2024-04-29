@@ -537,7 +537,8 @@ footer {
     }
 
     #navbar li {
-      margin-right: 5px;
+      margin-right: 3px;
+      margin-left: 5px;
     }
 }
 
