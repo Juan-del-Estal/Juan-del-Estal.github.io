@@ -76,7 +76,6 @@ span {
 
 /* NavBar */
 #navbar {
-  /* Transition */
   opacity: 0;
   position: fixed;
   top: 20px;
@@ -534,7 +533,7 @@ footer {
     
     #navbar a {
       border-right: none;
-      font-size: 14px;
+      font-size: 15px;
     }
     #navbar li {
       margin-right: 3px;
