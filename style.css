@@ -30,6 +30,10 @@ span {
   margin-bottom: 5px;
 }
 
+#foto-juan {
+  margin-top: 20px;
+}
+
 #about-me {
   display: flex;
   justify-content: flex-start;
@@ -536,10 +540,6 @@ footer {
     #navbar li {
       margin-right: 3px;
       margin-left: 5px;
-    }
-
-    #foto-juan {
-      margin-top: 20px;
     }
 }
 
