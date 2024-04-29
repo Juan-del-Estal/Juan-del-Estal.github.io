@@ -17,8 +17,6 @@ section {
   box-shadow: 0 2px 4px #9ed822; /* Add box shadow to bottom border */
 }
 
-
-
 h1 {
   font-size: 2.5rem;
   font-family: 'Rubik Dirt', cursive;
@@ -512,6 +510,10 @@ footer {
     }
 
     #navbar a {
+      opacity: 0;
+    }
+
+    #navbar.color-nav {
       opacity: 0;
     }
 
