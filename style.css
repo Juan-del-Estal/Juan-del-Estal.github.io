@@ -535,6 +535,10 @@ footer {
     .navbar-brand {
     display: none; /* Ocultar el logo de la navbar en dispositivos móviles */
     }
+
+    #navbar li {
+      margin-right: 5px;
+    }
 }
 
 @media screen and (max-width: 800px) {
