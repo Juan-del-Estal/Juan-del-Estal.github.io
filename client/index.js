@@ -1,5 +1,21 @@
 document.addEventListener("DOMContentLoaded", function() {
-  // Agregar clases después de que la página se haya cargado completamente
+     // Smooth scrolling when clicking on links with class "scroll-link"
+     $('.scroll-link').on('click', function (event) {
+      if (this.hash !== '') {
+        event.preventDefault();
+
+        var hash = this.hash;
+
+        // Animate scroll to target
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function () {
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      }
+    });
+    
     window.addEventListener('scroll', () => {
       let navBar = document.getElementById('navbar');
       let allLinks = document.querySelectorAll('a');
