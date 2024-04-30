@@ -44,6 +44,16 @@ span {
   justify-content: flex-start;
 }
 
+#about-me.selected-section, #projects.selected-section,
+#contact-me.selected-section, #main-section.selected-section {
+  opacity: 0;
+}
+
+#about-me.transition-section, #projects.transition-section,
+#contact-me.transition-section, #main-section.transition-section {
+  animation: aparecer 0.5s ease-in-out 5ms forwards;
+}
+
 /* Trasitions */
 #sub-juan {
   opacity: 0; /* Inicialmente la imagen es transparente */
