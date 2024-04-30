@@ -205,6 +205,11 @@ span {
   z-index: -1;
 }
 
+.main-video {
+  background-image: url('imagenes/main-background-support.png');
+  background-size: cover;
+}
+
 .seccion-descripcion {
   font-size: 1.5rem;
   font-weight: 500;
