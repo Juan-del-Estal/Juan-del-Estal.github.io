@@ -156,7 +156,7 @@ span {
   -webkit-text-fill-color: transparent; /* Prefijo de proveedor para WebKit */
 }
 
-.logo-github:hover {
+.logo-github:hover, .logo-play:hover {
   color: rgb(21, 207, 157);
 }
 
